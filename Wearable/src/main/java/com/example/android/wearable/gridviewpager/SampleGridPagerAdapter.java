@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.example.android.gridviewpager;
+package com.example.android.wearable.gridviewpager;
 
 import android.app.Fragment;
 import android.app.FragmentManager;
