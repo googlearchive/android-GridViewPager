@@ -14,9 +14,14 @@
      limitations under the License.
 -->
 
-<resources>
-    <dimen name="page_row_margin">100dp</dimen>
-    <dimen name="page_column_margin">10dp</dimen>
-    <dimen name="page_column_margin_round">50dp</dimen>
-    <dimen name="card_margin_bottom">3dp</dimen>
-</resources>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle" >
+
+    <gradient
+        android:angle="45"
+        android:endColor="#87CEEB"
+        android:centerColor="#768087"
+        android:startColor="#000"
+        android:type="linear" />
+
+</shape>

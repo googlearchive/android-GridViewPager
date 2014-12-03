@@ -15,19 +15,17 @@
 -->
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent" >
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient" >
 
-    <android.support.wearable.view.GridViewPager
-        android:id="@+id/pager"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:keepScreenOn="true" />
-
-    <android.support.wearable.view.DotsPageIndicator
-        android:id="@+id/page_indicator"
+    <TextView
+        android:id="@+id/text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal|bottom">
-    </android.support.wearable.view.DotsPageIndicator>
+        android:layout_gravity="center"
+        android:layout_margin="8dp"
+        android:background="@drawable/shape"
+        android:text="@string/custom_fragment_text" 
+        android:textColor="@color/primary_text_light"/>
 
 </FrameLayout>
