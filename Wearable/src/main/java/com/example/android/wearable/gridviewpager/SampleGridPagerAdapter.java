@@ -67,8 +67,8 @@ public class SampleGridPagerAdapter extends FragmentGridPagerAdapter {
                 cardFragment(R.string.columns_title, R.string.columns_text)));
         mRows.add(new Row(new CustomFragment()));
         mRows.add(new Row(cardFragment(R.string.dismiss_title, R.string.dismiss_text)));
-        mDefaultBg = new ColorDrawable(R.color.dark_grey);
-        mClearBg = new ColorDrawable(android.R.color.transparent);
+        mDefaultBg = new ColorDrawable(ctx.getResources().getColor(R.color.dark_grey));
+        mClearBg = new ColorDrawable(ctx.getResources().getColor(android.R.color.transparent));
     }
 
     LruCache<Integer, Drawable> mRowBackgrounds = new LruCache<Integer, Drawable>(3) {
